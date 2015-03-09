@@ -1,0 +1,21 @@
+Xin Qian  03/09/2015
+    toy MC to practice how to remove filter smearing function
+    How to run "root -l abc.C"
+
+gen_toy.C 
+	  Generate toy MC results with field response
+	  
+gen_toy1.C 
+	   Generate toy MC results without field response, just filter smearing 
+
+invert.C 
+	 Main code to remove the filter smearing function based on matrix operation
+	 
+plot_toy.C 
+	Code to plot results from toy MC to see   
+
+plot_filter.C
+	Plot a filter function to see
+
+plot_matrix.C
+	Code to practice operate matrix in ROOT
